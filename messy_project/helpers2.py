@@ -1,6 +1,7 @@
 import random
 
 def getData():
-    data = ["apple", "banana", "straewberry"]
-    idx = random.randint(0, len(data)-1)
-    return data[idx]
+    """returns a random fruit"""
+    FRUITS = ["apple", "banana", "strawberry"]
+    idx = random.randint(0, len(FRUITS)-1)
+    return FRUITS[idx]
